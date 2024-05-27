@@ -1,11 +1,11 @@
 module.exports = class Person
 {
 
-    age = 25
+   // age = 25
    // location ="canada"
-    get location()
+    locationTest()
     {
-        return "canada"
+        console.log("Canada");
     }
     //constructor is method which executes by default when you create object of the class
     constructor(firstName,lastName)
