@@ -2,7 +2,7 @@
 //var - global level/functional
 //let global level/block level {}
 //const -
-const greet = "Evening"
+//const greet = "Evening"
 //greet = "night"
 
 if( 1 ==1)
@@ -13,12 +13,13 @@ if( 1 ==1)
 function add(a,b)
 {
     let greet = "Morning"
+    console.log(greet)
     return a+b
 }
 
 let sum =add(2,3)
 console.log(sum)
-console.log(greet)
+
 
 //do not have name =>Anyonymus function-- Function expressions
 

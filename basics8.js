@@ -7,10 +7,13 @@ class Pet extends Person
 
 {
 
-    get location()
-    {
-        return "BlueCross"
-    }
+    
+
+  //  location() {
+       
+   //
+       // console.log("BlueCross");
+ //   }
     constructor(firstName,lastName)
     {
         //call parent class constructor
@@ -20,6 +23,6 @@ class Pet extends Person
 }
 let pet =new Pet("sam","san")
 pet.fullName()
-console.log(pet.location)
+//console.log(pet.locationTest())
 
 
